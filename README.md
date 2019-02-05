@@ -3,7 +3,6 @@ A small script that helps you get all your running simulator's, pick one and pas
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![Python 3.0](https://img.shields.io/badge/python-3.0-blue.svg)](https://www.python.org/downloads/release/python-300/)
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
-![](https://img.shields.io/twitter/follow/dr_nerd.svg?style=social)
 
 Python interface to you load all running simulator, pick one and pass a deep link that you want to test and will be open on simulator that you chose.
 
@@ -60,8 +59,9 @@ And after you can run just typing:
 ## Author
 
 Felipe Garcia, felipeflorencio@me.com  
-Twitter: @dr_nerd   ![](https://img.shields.io/twitter/follow/dr_nerd.svg?style=social)
+Twitter: @dr_nerd   
 
+<a href="https://twitter.com/intent/follow?screen_name=dr_nerd"><img alt="Follow on Twitter" src="https://img.shields.io/twitter/follow/dr_nerd.svg?style=social"></a>
 
 ## License (MIT)
 
