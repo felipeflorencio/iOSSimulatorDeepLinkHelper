@@ -3,11 +3,19 @@ A small script that helps you get all your running simulator's, pick one and pas
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![Python 3.0](https://img.shields.io/badge/python-3.0-blue.svg)](https://www.python.org/downloads/release/python-300/)
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+![](https://img.shields.io/twitter/follow/dr_nerd.svg?style=social)
 
 Python interface to you load all running simulator, pick one and pass a deep link that you want to test and will be open on simulator that you chose.
 
 ### Requirements
-Was built to use using Python 3
+- Python 3
+
+## About
+
+This tool was built to make easy select a simulator and open a deep link.  
+You need to have one simulator running, if not the tool will say that there's no simulator running and ask you to start.  
+If you have just 1 simulator running we will select that one by default and only ask for the deeplink you want to try.  
+But if you have more than one simulator running we will show a list with a number, it's just type the number that will pick that to use the deep link.
 
 ## Usage
 
@@ -26,9 +34,34 @@ Deep link: <my deep link that I want to try>
 
 ```
 
+#### * Python tip
+
+If you don't want to always type 'python3' you can just run this command on terminal: 
+
+```shell
+chmod +x deeplink_helper.py
+```
+
+And after you can run just typing: 
+
+```shell
+./deeplink_helper.py
+```
+
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/kennethreitz)
+
+### Improvements  
+	- Possibility to start a simulator if no one is running.
+	- Cache the last running deep link and just ask if want to use the same again. 
+
+
+## Author
+
+Felipe Garcia, felipeflorencio@me.com  
+Twitter: @dr_nerd   ![](https://img.shields.io/twitter/follow/dr_nerd.svg?style=social)
+
 
 ## License (MIT)
 
