@@ -23,6 +23,7 @@ def start_the_process():
 		selected_device = extracted_device_identifier.group(1)
 	else:
 		extracted_device_identifier = re.search(r'\((.*?)\)', list_of_running_devices[0])
+		selected_device = extracted_device_identifier.group(1)
 		device_name_selected = re.search(r'[^(]*', list_of_running_devices[0]).group(0).lstrip()
 		print("\nSelected the only simulator running: " + device_name_selected)
 
